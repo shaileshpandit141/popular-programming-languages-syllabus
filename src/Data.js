@@ -25,5 +25,11 @@ export default [
         discription: 'Learning Flask, a popular web framework for Python, is a great journey that can take you from building simple web applications to more complex and feature-rich projects. Here is a roadmap to guide you from a beginner to an advanced level in Flask.',
         link: 'Flask-Syllabus/',
     },
+    {
+        id: 5,
+        title: 'Advanced React.js Syllabus',
+        discription: 'React.js roadmap, from beginner to advanced, organized by topics, providing a structured guide for learners to progress through various skill levels.',
+        link: 'ReactJs-Syllabus',
+    },
 
 ]
