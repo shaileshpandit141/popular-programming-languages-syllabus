@@ -50,7 +50,7 @@
     --color: #fff;
     --bg-color: #2c2c2c;
     --bg-btn-color: #2a3030;
-    --border-color: rgba(255, 255, 255, 0.123);
+    --border-color: #ffffff1f;
 
 }
 
@@ -90,6 +90,51 @@ body .header {
     bottom: auto;
     z-index: 100;
 }
+
+/* || Loder Element Styles */
+.loder {
+    background-color: #202020;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 900;
+    transition: opacity 0.5s ease-in, visibility 0.5s ease-in;
+}
+
+
+/* Class For Js To Hide This Element  */
+.loder--hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.loder::before {
+    content: '';
+    background-color: transparent;
+    width: 35px;
+    height: 35px;
+    border: 8px solid #2c2c2c;
+    border-top-color: #946286;
+    border-radius: 999px;
+    animation: loder 0.5s infinite;
+}
+
+@keyframes loder {
+    to {
+        transform: rotate(1turn);
+    }
+
+    from {
+        transform: rotate(0turn);
+    }
+}
+
 
 .header .nav {
     width: 75%;
