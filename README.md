@@ -16,12 +16,12 @@ Welcome to our comprehensive guide to programming languages! This web page serve
 
 * Clone the repository to your local machine:
     ```shell
-    git clone https://github.com/shaileshpandit141/Roadmap-With-Topics.git
+    git clone https://github.com/shaileshpandit141/List-Of-Most-Popular-Programming-Languages-Syllabus.git
     ```
 
 * Navigate to the project directory:
     ```shell
-    cd ./Roadmap-With-Topics/index.html
+    cd ./List-Of-Most-Popular-Programming-Languages-Syllabus/index.html
     ```
 
 * And the navigated directory open index.html page with `liveserver` to run this project.
