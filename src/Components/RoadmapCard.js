@@ -5,10 +5,10 @@ export default function RoadmapCard(data) {
     return (
         `
         <div class="roadmap--card--cont">
-            <a href="Roadmaps/${data.link}" class="card--link">
+            <a href="Roadmaps/${data.link}/" class="card--link">
                 <div class='heading--cont'>
                     <figure class='figure--cont'>
-                        <img src="../Roadmaps/${data.link}/media/logo.png" alt="">
+                        <img src="/Roadmaps/${data.link}/media/logo.png" alt="">
                     </figure>
                     <h3 class="title">${data.title}</h3>
                 </div>

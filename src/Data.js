@@ -17,13 +17,13 @@ export default [
         id: 3,
         title: 'DSA Using Python Syllabus',
         discription: 'A roadmap for learning Data Structures and Algorithms (DSA) with Python from a beginner to an advanced level involves progressing through various topics and building your understanding incrementally. Here is a comprehensive roadmap to help you on your DSA journey.',
-        link: 'DSA-With-Python-Syllabus/',
+        link: 'DSA-With-Python-Syllabus',
     },
     {
         id: 4,
         title: 'Flask Syllabus',
         discription: 'Learning Flask, a popular web framework for Python, is a great journey that can take you from building simple web applications to more complex and feature-rich projects. Here is a roadmap to guide you from a beginner to an advanced level in Flask.',
-        link: 'Flask-Syllabus/',
+        link: 'Flask-Syllabus',
     },
     {
         id: 5,
