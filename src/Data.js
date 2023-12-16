@@ -31,5 +31,11 @@ export default [
         discription: 'React.js roadmap, from beginner to advanced, organized by topics, providing a structured guide for learners to progress through various skill levels.',
         link: 'ReactJs-Syllabus',
     },
+    {
+        id: 6,
+        title: 'Advanced JavaScript Syllabus',
+        discription: 'An roadmap to guide your learning journey in JavaScript from beginner to advanced levels. This roadmap is organized by topics and skills.Adjust the pace based on your comfort and understanding at each stage.',
+        link: 'Advanced-JavaScript-Language-Syllabus',
+    },
 
 ]

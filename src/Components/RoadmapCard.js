@@ -6,7 +6,12 @@ export default function RoadmapCard(data) {
         `
         <div class="roadmap--card--cont">
             <a href="Roadmaps/${data.link}" class="card--link">
-                <h3 class="title">${data.title}</h3>
+                <div class='heading--cont'>
+                    <figure class='figure--cont'>
+                        <img src="../Roadmaps/${data.link}/media/logo.png" alt="">
+                    </figure>
+                    <h3 class="title">${data.title}</h3>
+                </div>
                 <p class='discription'>
                     ${data.discription}
                 </p>
