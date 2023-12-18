@@ -1,6 +1,9 @@
 export default function DropdownCard(Data) {
 
-    let modualNumWithZero = Data.id < 10 ? `0${Data.id}` : Data.id 
+    let modualNumWithZero = Data.id < 10 ? `0${Data.id}` : Data.id
+    let subheadingEls = Data.subHeadings.map(prevData => {
+        return `<li>${prevData}</li>`
+    })
 
     return (
         `
@@ -13,8 +16,9 @@ export default function DropdownCard(Data) {
                 </figure>
             </button>
             <div id="${'subheading--cont' + Data.id}" class="sub--heading--cont">
-                <ol id="${'subheading--' + Data.id}" class="ol">
+                <ol class="ol">
                     <!-- || Subheading  -->
+                    ${subheadingEls.join('\n')}
                 </ol>
             </div>
         </div>
