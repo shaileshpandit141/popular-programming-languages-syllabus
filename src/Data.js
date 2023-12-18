@@ -34,8 +34,26 @@ export default [
     {
         id: 6,
         title: 'Advanced JavaScript Syllabus',
-        discription: 'An roadmap to guide your learning journey in JavaScript from beginner to advanced levels. This roadmap is organized by topics and skills.Adjust the pace based on your comfort and understanding at each stage.',
+        discription: 'An roadmap to guide your learning journey in JavaScript from beginner to advanced levels. This roadmap is organized by topics and skills. Adjust the pace based on your comfort and understanding at each stage.',
         link: 'Advanced-JavaScript-Language-Syllabus',
+    },
+    {
+        id: 7,
+        title: 'Advanced Pandas Syllabus',
+        discription: 'An roadmap to guide your learning journey in Pandas from beginner to advanced levels. This roadmap is organized by topics and skills. Adjust the pace based on your comfort and understanding at each stage.',
+        link: 'Advanced-Pandas-Syllabus',
+    },
+    {
+        id: 8,
+        title: 'Advanced Matplotlib Syllabus',
+        discription: 'An roadmap to guide your learning journey in Matplotlib from beginner to advanced levels. This roadmap is organized by topics and skills. Adjust the pace based on your comfort and understanding at each stage.',
+        link: 'Advanced-Matplotlib-Syllabus',
+    },
+    {
+        id: 9,
+        title: 'Machine Learning With Scikit-Learn Syllabus',
+        discription: 'An roadmap to learn scikit-learn from a beginner to an advanced level.',
+        link: 'ML-Scikit-Learn-Syllabus',
     },
 
 ]
