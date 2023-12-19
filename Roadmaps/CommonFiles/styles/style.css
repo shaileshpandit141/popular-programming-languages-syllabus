@@ -110,7 +110,7 @@ body {
     border: 8px solid #2c2c2c;
     border-top-color: #946286;
     border-radius: 999px;
-    animation: loder 0.5s infinite;
+    animation: loder infinite .5s linear;
 }
 
 @keyframes loder {
