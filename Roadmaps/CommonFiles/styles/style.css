@@ -179,7 +179,7 @@ body {
 
 
 .main--heading {
-    text-align: start;
+    text-align: center;
     padding-block: 2rem;
     font-size: var(--TITLE--SIZE);
     line-height: var(--TITLE--LINE--HEIGHT);

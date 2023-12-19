@@ -1,131 +1,129 @@
 export default [
     {
         id: 1,
-        heading: 'Introduction to Matplotlib',
+        heading: 'Introduction to Pandas',
         subHeadings: [
-            'Understand the basics of Python programming.',
-            'Install Matplotlib using pip.',
-            'Learn to create simple plots using plt.plot().',
+            'Series and DataFrames',
+            'Reading and writing data',
         ]
     },
     {
         id: 2,
         heading: 'Basic Operations',
         subHeadings: [
-            'Explore different types of basic plots(line, scatter, bar).',
-            'Customize plots with titles, labels, and legends.',
-            'Understand the concept of figure and axes.',
+            'Indexing and Selection',
+            'Data Cleaning',
         ]
     },
     {
         id: 3,
-        heading: 'Subplots and Layouts',
+        heading: 'Data Exploration',
         subHeadings: [
-            'Create multiple plots in a single figure using plt.subplots().',
-            'Explore different layout options for subplots.',
+            'Descriptive statistics',
+            'Handling missing data',
         ]
     },
     {
         id: 4,
-        heading: 'Advanced Plot Customization',
+        heading: 'Merging and Concatenating',
         subHeadings: [
-            'Dive into advanced customization with color, style, and markers.',
-            'Learn to add annotations, text, and arrows to plots.',
+            'Combining DataFrames',
+            'Concatenation and merging techniques',
         ]
     },
     {
         id: 5,
-        heading: 'Working with Data',
+        heading: 'Grouping and Aggregation',
         subHeadings: [
-            'Load and visualize data from external sources(CSV, NumPy arrays).',
-            'Understand how to handle missing or categorical data in plots.',
+            'GroupBy operations',
+            'Aggregating data',
         ]
     },
     {
         id: 6,
-        heading: 'Statistical Plots',
+        heading: 'Time Series Data',
         subHeadings: [
-            'Explore statistical plotting with histograms, box plots, and violin plots.',
-            'Learn to create error bars and confidence intervals.',
+            'Working with dates and times',
+            'Resampling',
         ]
     },
     {
         id: 7,
-        heading: '3D Plots',
+        heading: 'Advanced Indexing',
         subHeadings: [
-            'Introduce 3D plotting with mplot3d toolkit.',
-            'Create surface plots and scatter plots in 3D space.',
+            'MultiIndex',
+            'Hierarchical indexing',
         ]
     },
     {
         id: 8,
-        heading: 'Map Plotting',
+        heading: 'Data Visualization with Pandas',
         subHeadings: [
-            'Use Matplotlib to visualize geographical data.',
-            'Explore the cartopy toolkit for more advanced map plotting.',
+            'Basic plotting with Pandas',
+            'Integration with Matplotlib',
         ]
     },
     {
         id: 9,
-        heading: 'Animations',
+        heading: 'Advanced Data Cleaning',
         subHeadings: [
-            'Learn to create animated plots using Matplotlib.',
-            'Understand the concept of frames and update functions.',
+            'Handling outliers',
+            'Transforming data',
         ]
     },
     {
         id: 10,
-        heading: 'Interactive Plots',
+        heading: 'Efficient Data Processing',
         subHeadings: [
-            'Explore interactive plotting using mplcursors or mpl_interactions.',
-            'Learn to add widgets for user interaction.',
+            'Optimizing performance',
+            'Using vectorized operations',
         ]
     },
     {
         id: 11,
-        heading: 'Seaborn Integration',
+        heading: 'Pandas and NumPy Integration',
         subHeadings: [
-            'Understand the Seaborn library for statistical data visualization.',
-            'Combine Matplotlib with Seaborn for enhanced plotting capabilities.',
+            'Leveraging NumPy with Pandas',
+            'Understanding the relationship between the two libraries',
         ]
     },
     {
         id: 12,
-        heading: 'Advanced Topics',
+        heading: 'Machine Learning with Pandas',
         subHeadings: [
-            'Explore advanced topics like custom colormaps, color normalization, and colorbars.',
-            'Understand backend choices for Matplotlib and their impact.',
+            'Preparing data for ML models',
+            'Integrating Pandas with popular ML libraries',
         ]
     },
     {
         id: 13,
-        heading: 'Performance Optimization',
+        heading: 'Custom Functions and Apply',
         subHeadings: [
-            'Learn techniques for optimizing Matplotlib performance with large datasets.',
-            'Understand how to use vectorization for efficient plotting.',
+            'Writing and applying custom functions',
+            'Using the apply function effectively',
         ]
     },
     {
         id: 14,
-        heading: 'Publication-Quality Plots',
+        heading: 'Pandas Internals',
         subHeadings: [
-            'Fine - tune plots for publication with attention to detail.',
-            'Understand export options and resolution settings.',
+            'Understanding how Pandas works under the hood',
+            'Performance tuning strategies',
         ]
     },
     {
         id: 15,
-        heading: 'Contributing to Matplotlib',
+        heading: 'Real-world Projects',
         subHeadings: [
-            'Dive into the Matplotlib source code.',
-            'Learn how to contribute to the library or create custom extensions.',
+            'Applying Pandas to real - world datasets',
+            'Solving complex data analysis problems',
         ]
     },
     {
         id: 16,
         heading: 'Benefit From',
         subHeadings: [
-            'Remember to practice regularly, refer to documentation, and explore real-world datasets to reinforce your learning.',
+            'Throughout your learning journey, practice is key. Work on mini-projects and participate in online challenges to reinforce your skills. Stay updated with the latest Pandas releases and community discussions for continuous improvement. Happy learning!',
         ]
     },
 
