@@ -1,0 +1,385 @@
+/* || Roboto Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* || Poppins Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* || RESET */
+*,
+::before,
+::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* || CSS Font Size Variables */
+:root {
+
+    /* | For Display Text  */
+    --DISPLAY--SIZE: 4rem;
+    /* 64px */
+    --DISPLAY--LINE--HEIGHT: 44px;
+
+    /* | For Heading Text  */
+    --HEADING--SIZE: 2.813rem;
+    /* 45px */
+    --HEADING--LINE--HEIGHT: 36px;
+
+    /* | For Title Text  */
+    --TITLE--SIZE: 1.25rem;
+    /* 20px */
+    --TITLE--LINE--HEIGHT: 24px;
+    --TITLE--LETTER--SPACING: 0.15px;
+
+    /* | For Label Text  */
+    --LABLE--SIZE: 1.125rem;
+    /* 18px */
+    --LABEL--LINE--HEIGHT: 16px;
+    --LABEL--LETTER--SPACING: 0.5px;
+
+    /* | For Body Text  */
+    --BODY--M--SIZE: 0.875rem;
+    /* 14px */
+    --BODY--M--LINE-HEIGHT: 20px;
+    --BODY--M--LETTER--SPACING: 0.25px;
+
+
+    /* || Colors */
+    --color: #fff;
+    --bg-color: #2c2c2c;
+    --bg-btn-color: #2a3030;
+    --border-color: #ffffff1f;
+
+}
+
+
+input,
+button {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* || Body  */
+body {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--bg-color);
+}
+
+/* || Header styles */
+body .header {
+    position: relative;
+    background-color: var(--bg-btn-color);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: auto;
+    z-index: 100;
+}
+
+/* || Loder Element Styles */
+.loder {
+    background-color: #202020;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 900;
+    transition: opacity 0.5s ease-in, visibility 0.5s ease-in;
+}
+
+
+/* Class For Js To Hide This Element  */
+.loder--hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.loder::before {
+    content: '';
+    background-color: transparent;
+    width: 35px;
+    height: 35px;
+    border: 8px solid #2c2c2c;
+    border-top-color: #946286;
+    border-radius: 999px;
+    animation: loder infinite .5s linear;
+}
+
+@keyframes loder {
+    to {
+        transform: rotate(1turn);
+    }
+
+    from {
+        transform: rotate(0turn);
+    }
+}
+
+
+.header .nav {
+    width: 75%;
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 10px;
+    transition: width .3s ease-in-out;
+}
+
+@media (width < 768px) {
+    .header .nav {
+        width: 95%;
+    }
+}
+
+
+/* || Lift Container  */
+.nav .left--cont {
+    background-color: transparent;
+}
+
+.left--cont .figure {
+    width: 48px;
+    height: 48px;
+    aspect-ratio: 1/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.figure img {
+    width: inherit;
+    height: inherit;
+    object-fit: contain;
+    object-position: center;
+}
+
+
+/* || Right Container  */
+.middel--cont {
+    min-width: 0;
+    flex: 1;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.middel--cont input {
+    min-width: 0%;
+    flex-basis: 400px;
+    flex-shrink: 1;
+    border: none;
+    outline: 3px solid transparent;
+    font-size: var(--LABLE--SIZE);
+    letter-spacing: var(--LABEL--LETTER--SPACING);
+    padding: 8px 16px;
+    border-radius: 8px;
+    color: #fff;
+    background-color: var(--bg-color);
+    transition: outline 0.3s ease-in-out;
+}
+
+.middel--cont input:active,
+.middel--cont input:focus,
+.middel--cont input:hover {
+    outline: 3px solid var(--border-color);
+}
+
+
+/* || Right Container  */
+.right--cont {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right--cont button {
+    border: none;
+    outline: 5px solid transparent;
+    font-size: var(--LABLE--SIZE);
+    letter-spacing: var(--LABEL--LETTER--SPACING);
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-color: var(--bg-color);
+}
+
+
+
+/* || Main Container Style  */
+
+#root {
+    width: 75%;
+    transition: width .3s ease-in-out, media .3s ease-in-out;
+    padding-top: 6rem;
+}
+
+@media (width < 768px) {
+    #root {
+        width: 95%;
+    }
+}
+
+
+#root #cards--wrapper {
+    width: 100%;
+    padding-block: 10px;
+    display: grid;
+    gap: 10px;
+}
+
+@media (width < 481px) {
+    #cards--wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (481px <=width < 768px) {
+    #cards--wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (768px <=width < 1024px) {
+    #cards--wrapper {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (1024px <=width < 1200px) {
+    #cards--wrapper {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (width >=1200px) {
+    #cards--wrapper {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
+
+/* || Card Styles  */
+.roadmap--card--cont {
+    color: var(--color);
+    background-color: var(--bg-btn-color);
+    display: flex;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+
+.roadmap--card--cont .card--link {
+    color: inherit;
+    background-color: inherit;
+    padding: 1rem;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+/* || Card Heading Styles */
+.card--link .heading--cont {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: transparent;
+    margin-bottom: .5rem;
+}
+
+.heading--cont .figure--cont {
+    background-color: transparent;
+    aspect-ratio: 1/1;
+    width: 40px;
+    height: 40px;
+}
+
+.figure--cont img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+
+.card--link .title {
+    font-size: var(--TITLE--SIZE);
+    letter-spacing: var(--TITLE--LETTER--SPACING);
+    line-height: var(--TITLE--LINE--HEIGHT);
+    opacity: .8;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.card--link .discription {
+    font-size: var(--BODY--M--SIZE);
+    letter-spacing: var(--BODY--M--LETTER--SPACING);
+    line-height: var(--BODY--M--LINE-HEIGHT);
+    opacity: .6;
+    margin-bottom: .5rem;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.card--link .viewit--cont {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    column-gap: 5px;
+}
+
+.viewit--cont span {
+    font-size: var(--LABLE--SIZE);
+    letter-spacing: var(--LABEL--LETTER--SPACING);
+    line-height: var(--LABEL--LINE--HEIGHT);
+    opacity: .8;
+    transition: transform .3s ease-in-out, opacity .3s ease-in-out;
+}
+
+.card--link:hover .viewit--cont span:last-child {
+    transform: translateX(6px);
+}
+
+.card--link:hover .viewit--cont span {
+    opacity: 1;
+}
+
+.no--metch {
+    color: var(--color);
+    font-size: var(--LABLE--SIZE);
+    letter-spacing: var(--LABEL--LETTER--SPACING);
+    line-height: var(--TITLE--LINE--HEIGHT);
+}
