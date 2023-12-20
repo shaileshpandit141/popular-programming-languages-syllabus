@@ -1,21 +1,21 @@
-export default function DropdownCard(Data) {
+export default function DropdownCard(data) {
 
-    let modualNumWithZero = Data.id < 10 ? `0${Data.id}` : Data.id
-    let subheadingEls = Data.subHeadings.map(prevData => {
-        return `<li>${prevData}</li>`
+    let modualNumWithZero = data.id < 10 ? `0${data.id}` : data.id
+    let subheadingEls = data.subHeadings.map(prevdata => {
+        return `<li>${prevdata}</li>`
     })
 
     return (
         `
         <div class="roadmaps">
-            <button ${'data-state' + Data.id}="true" id="${'data-state' + Data.id}" class="heading--cont--btn">
+            <button ${'data-state' + data.id}="true" id="${'data-state' + data.id}" class="heading--cont--btn">
                 <span class="module--tag">Module:${modualNumWithZero}</span>
-                <h3> ${Data.heading}</h3>
+                <h3> ${data.heading}</h3>
                 <figure class="icon--cont">
-                    <img id="${'icon--' + Data.id}" src="../App/CommonFiles/icons/angle-small-up.svg" alt="" width="24px" height="24px">
+                    <img id="${'icon--' + data.id}" src="../App/CommonFiles/icons/angle-small-up.svg" alt="" width="24px" height="24px">
                 </figure>
             </button>
-            <div id="${'subheading--cont' + Data.id}" class="sub--heading--cont">
+            <div id="${'subheading--cont' + data.id}" class="sub--heading--cont">
                 <ol class="ol">
                     <!-- || Subheading  -->
                     ${subheadingEls.join('\n')}
