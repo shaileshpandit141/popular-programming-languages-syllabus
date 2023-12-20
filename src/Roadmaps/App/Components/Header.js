@@ -13,7 +13,7 @@ export default function Header(data) {
             </div>
             <div class="right--cont">
                 <div class="overflow--link">
-                    <a href="/">Home</a>
+                    <a href="https://shaileshpandit141.github.io/List-Of-Most-Popular-Programming-Languages-Syllabus/">Home</a>
                 </div>
             </div>
         </nav>
