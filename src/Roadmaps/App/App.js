@@ -9,22 +9,22 @@ const roadmapsContEl = document.getElementById('roadmaps--cont')
 
 // || Get Window Path for data rendering
 let currentPath = window.location.pathname;
-let absoluteUrl = currentPath.split('/')[3]
-
+let absoluteUrl = currentPath.toLowerCase().split('/')
 
 function renderToDocument() {
 
-    Data.forEach(data => {
-
-        titleTextEl.innerText = data.title
-        headingTextEl.innerText = data.title
-        discriptionTextEl.innerText = data.discription
+    Data.forEach(mainData => {
 
         // || Cheacking url for data rendering 
-        if (data.url === absoluteUrl) {
+        if (absoluteUrl.includes(mainData.url.toLowerCase())) {
 
             // || Handel syllabusData in Data 
-            data.syllabusData.forEach(data => {
+            mainData.syllabusData.forEach(data => {
+
+                // || Add Some Information to the Document 
+                titleTextEl.innerText = mainData.title
+                headingTextEl.innerText = mainData.title
+                discriptionTextEl.innerText = mainData.discription
 
                 // || Add DropdownCard Into The Document 
                 roadmapsContEl.insertAdjacentHTML('beforeend', DropdownCard(data))

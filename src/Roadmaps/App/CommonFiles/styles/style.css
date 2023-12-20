@@ -127,6 +127,8 @@ body {
 /* || Main Container Styles */
 #root {
     width: 100%;
+    height: fit-content;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -179,7 +181,7 @@ body {
 
 
 .main--heading {
-    text-align: center;
+    text-align: start;
     padding-block: 2rem;
     font-size: var(--TITLE--SIZE);
     line-height: var(--TITLE--LINE--HEIGHT);
@@ -187,7 +189,7 @@ body {
     position: sticky;
     top: 0;
     width: 100%;
-    background-color: #2c2c2c;
+    background-color: transparent;
     z-index: 100;
 }
 
@@ -223,7 +225,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    row-gap: 2px;
+    row-gap: 1px;
 }
 
 

@@ -19,6 +19,7 @@ function hendelClick() {
                 iconEl.style.transform = 'rotateZ(180deg)'
                 headingEls[index].classList.add('activeBg')
                 subHeadingContainerEl.style.height = 'fit-content'
+                subHeadingContainerEl.style.maxHeight = '250px'
             } else {
                 clickStateEl.setAttribute(attName, 'true')
                 iconEl.style.transform = 'rotateZ(0deg)'
