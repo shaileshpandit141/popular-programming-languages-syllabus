@@ -4,7 +4,7 @@ export default [
         id: 1,
         title: 'Advanced Python Syllabus',
         discription: 'An advanced Python roadmap can be quite extensive, covering various topics and areas of expertise. Below is a comprehensive roadmap that covers both core Python concepts and advanced topics, enabling you to become a proficient Python developer.',
-        url: 'Advanced-Python-Language-Syllabus',
+        url: 'Python-Language-Syllabus',
         syllabusData: [
             {
                 id: 1,
@@ -671,7 +671,7 @@ export default [
         id: 5,
         title: 'Advanced JavaScript Syllabus',
         discription: 'An roadmap to guide your learning journey in JavaScript from beginner to advanced levels. This roadmap is organized by topics and skills. Adjust the pace based on your comfort and understanding at each stage.',
-        url: 'Advanced-JavaScript-Language-Syllabus',
+        url: 'JavaScript-Language-Syllabus',
         syllabusData: [
             {
                 id: 1,
@@ -1032,7 +1032,7 @@ export default [
         id: 7,
         title: 'Advanced Pandas Syllabus',
         discription: 'An roadmap to guide your learning journey in Pandas from beginner to advanced levels. This roadmap is organized by topics and skills. Adjust the pace based on your comfort and understanding at each stage.',
-        url: 'Advanced-Pandas-Syllabus',
+        url: 'Pandas-Syllabus',
         syllabusData: [
             {
                 id: 1,
@@ -1167,7 +1167,7 @@ export default [
         id: 8,
         title: 'Advanced Matplotlib Syllabus',
         discription: 'An roadmap to guide your learning journey in Matplotlib from beginner to advanced levels. This roadmap is organized by topics and skills. Adjust the pace based on your comfort and understanding at each stage.',
-        url: 'Advanced-Matplotlib-Syllabus',
+        url: 'Matplotlib-Syllabus',
         syllabusData: [
             {
                 id: 1,
@@ -1455,5 +1455,147 @@ export default [
             },
         ],
     },
+    {
+        id: 7,
+        title: 'Advanced FastAPI Syllabus',
+        discription: 'An roadmap to guide your learning journey in FastAPI from beginner to advanced levels. This roadmap is organized by topics and skills. Adjust the pace based on your comfort and understanding at each stage.',
+        url: 'FastAPI-Syllabus',
+        syllabusData: [
+            {
+                id: 1,
+                heading: 'Introduction to FastAPI',
+                subHeadings: [
+                    'Understand the basics of FastAPI and its asynchronous programming model.',
+                    'Learn about the benefits and features that FastAPI offers.',
+                ]
+            },
+            {
+                id: 2,
+                heading: 'Setting Up Development Environment',
+                subHeadings: [
+                    'Install FastAPI and explore the basic project structure.',
+                    'Set up a virtual environment and integrate FastAPI with your favorite code editor.',
+                ]
+            },
+            {
+                id: 3,
+                heading: 'Creating Your First API',
+                subHeadings: [
+                    'Build a simple API using FastAPI.',
+                    'Explore route handling, request and response models.',
+                ]
+            },
+            {
+                id: 4,
+                heading: 'Path Parameters and Query Parameters',
+                subHeadings: [
+                    'Understand how to handle path and query parameters in FastAPI.',
+                    'Learn to validate and parse parameters effectively.',
+                ]
+            },
+            {
+                id: 5,
+                heading: 'Request and Response Handling',
+                subHeadings: [
+                    'Dive deeper into handling different types of requests(GET, POST, etc.) and responses.',
+                    'Explore request and response models.',
+                ]
+            },
+            {
+                id: 6,
+                heading: 'Dependency Injection',
+                subHeadings: [
+                    'Learn about dependency injection in FastAPI and its role in creating modular and testable code.',
+                ]
+            },
+            {
+                id: 7,
+                heading: 'Database Integration',
+                subHeadings: [
+                    'Integrate FastAPI with databases(e.g., SQLAlchemy, Tortoise - ORM).',
+                    'Explore CRUD operations and database migrations.',
+                ]
+            },
+            {
+                id: 8,
+                heading: 'Authentication and Authorization',
+                subHeadings: [
+                    'Implement user authentication using OAuth2.',
+                    'Explore role - based access control and permissions.',
+                ]
+            },
+            {
+                id: 9,
+                heading: 'Middleware and Custom Middleware',
+                subHeadings: [
+                    'Understand how to use middleware in FastAPI for tasks like logging, security, etc.',
+                    'Create custom middleware for specific application needs.',
+                ]
+            },
+            {
+                id: 10,
+                heading: 'WebSocket Support',
+                subHeadings: [
+                    "Explore FastAPI's WebSocket capabilities.",
+                    'Build real - time applications using WebSocket.',
+                ]
+            },
+            {
+                id: 11,
+                heading: 'Testing and Test Automation',
+                subHeadings: [
+                    'Learn to write unit tests for FastAPI applications.',
+                    'Explore tools like Pytest and FastAPI TestClient.',
+                ]
+            },
+            {
+                id: 12,
+                heading: 'Optimizing Performance',
+                subHeadings: [
+                    'Understand performance optimization techniques in FastAPI.',
+                    'Explore asynchronous programming and its impact on performance.',
+                ]
+            },
+            {
+                id: 13,
+                heading: 'Containerization and Deployment',
+                subHeadings: [
+                    'Dockerize your FastAPI application.',
+                    'Deploy your application to cloud platforms(e.g., AWS, Azure, or Heroku).',
+                ]
+            },
+            {
+                id: 14,
+                heading: 'API Documentation and OpenAPI',
+                subHeadings: [
+                    'Dockerize your FastAPI application.',
+                    'Deploy your application to cloud platforms(e.g., AWS, Azure, or Heroku).',
+                ]
+            },
+            {
+                id: 15,
+                heading: 'API Documentation and OpenAPI',
+                subHeadings: [
+                    'Explore automatic API documentation using Swagger UI and ReDoc.',
+                    'Learn how to customize and extend OpenAPI documentation.',
+                ]
+            },
+            {
+                id: 16,
+                heading: 'Advanced Topics',
+                subHeadings: [
+                    'Explore advanced topics like dependency override, background tasks, etc.',
+                    'Stay updated with the latest features and improvements in FastAPI.',
+                ]
+            },
+            {
+                id: 17,
+                heading: 'Benefit From',
+                subHeadings: [
+                    'Remember to build projects along the way to reinforce your learning. This roadmap should provide a structured path for advancing your FastAPI skills.',
+                ]
+            },
+        ]
+    }
 
 ]

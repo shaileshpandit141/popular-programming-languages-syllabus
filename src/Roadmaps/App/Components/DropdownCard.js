@@ -16,8 +16,8 @@ export default function DropdownCard(data) {
                 </figure>
             </button>
             <div id="${'subheading--cont' + data.id}" class="sub--heading--cont">
+                <!-- || Subheading  -->
                 <ol class="ol">
-                    <!-- || Subheading  -->
                     ${subheadingEls.join('\n')}
                 </ol>
             </div>
