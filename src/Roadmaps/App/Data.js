@@ -358,167 +358,121 @@ export default [
         syllabusData: [
             {
                 id: 1,
-                heading: 'Review Basic Python',
+                heading: "Data structures and it's Implementation",
                 subHeadings: [
-                    'Data types, variables, and operators',
-                    'Control flow: if, elif, else statements and loops',
-                    'Functions and lambda expressions',
-                    'Lists, tuples, dictionaries, and sets',
-                    'File I/ O operations',
+                    'Introduction to Data Structures',
+                    'Why you should learn data structure?',
+                    'Use case of data structure',
+                    'Why product based companies focus on data structure',
+                    'Asymptotic Notations',
+                    'Time Complexity'
                 ]
             },
             {
                 id: 2,
-                heading: 'Object-Oriented Programming (OOP)',
+                heading: "Linked List",
                 subHeadings: [
-                    'Classes and objects',
-                    'Inheritance, encapsulation, and polymorphism',
-                    'Special methods(e.g., init, str)',
-                    'Class and instance variables',
+                    'Singly Linked List',
+                    'Doubly Linked List',
+                    'Circular Linked List',
+                    'Circular Doubly Linked List'
                 ]
             },
             {
                 id: 3,
-                heading: 'Advanced Data Structures',
+                heading: "Stack and Queue",
                 subHeadings: [
-                    'Stacks, queues, and urled lists',
-                    'Trees and graphs',
-                    'Advanced dictionary and set usage',
-                    'Collections module(e.g., defaultdict, Counter)',
+                    'Stack Introduction',
+                    'Implementation of Stack',
+                    'Queue Introduction',
+                    'Implementation of Queue',
+                    'Deque- Double Ended Queue',
+                    'Priority Queue'
                 ]
             },
             {
                 id: 4,
-                heading: 'Functional Programming',
+                heading: "Recursion and Backtracking",
                 subHeadings: [
-                    'First - class functions and higher - order functions',
-                    'map, filter, and reduce',
-                    'List comprehensions and generator expressions',
-                    'Closures and decorators',
+                    'Recursion Basics',
+                    'Approach to solve recursive problems',
+                    'Recursion vs iteration',
+                    'Types of recursion'
                 ]
             },
             {
                 id: 5,
-                heading: 'Python Standard Library',
+                heading: "Sorting",
                 subHeadings: [
-                    'Regular expressions(re module)',
-                    'datetime and time modules',
-                    'os and shutil modules for file system operations',
-                    'Threading and multiprocessing',
+                    'Bubble Sort',
+                    'Modified Bubble Sort',
+                    'Selection Sort',
+                    'Insertion Sort',
+                    'Quick Sort',
+                    'Mearge Sort'
                 ]
             },
             {
                 id: 6,
-                heading: 'Exception Handling',
+                heading: "Searching and Hashing",
                 subHeadings: [
-                    'try, except, else, and finally blocks',
-                    'Creating custom exceptions',
+                    'Linear Search',
+                    'binary Search',
+                    'Hashing'
                 ]
             },
             {
                 id: 7,
-                heading: 'File Handling',
+                heading: "Tree",
                 subHeadings: [
-                    'Working with CSV, JSON, XML, and YAML files',
-                    'Reading and writing binary files',
-                    'Context managers(with statement)',
+                    'Binary Tree',
+                    'Types of Binary Tree',
+                    'Binary Search Tree',
+                    'Implementation of Binary Search Tree'
                 ]
             },
             {
                 id: 8,
-                heading: 'Testing and Debugging',
+                heading: "Heap",
                 subHeadings: [
-                    'Unit testing with unittest and pytest',
-                    'Debugging techniques and pdb module',
-                    'Code coverage and testing best practices',
+                    'Heap Introduction',
+                    'Implementation of Heap',
+                    'Heap Sort'
                 ]
             },
             {
                 id: 9,
-                heading: 'Advanced Python Features',
+                heading: "Graph",
                 subHeadings: [
-                    'Generators and coroutines',
-                    'Context managers(using the contextlib module)',
-                    'Meta - programming(decorators, metaclasses)',
+                    'Graph Concept',
+                    'Graph Representation',
+                    'BFS and DFS'
                 ]
             },
             {
                 id: 10,
-                heading: 'Libraries and Frameworks',
+                heading: "Types of Algorithms",
                 subHeadings: [
-                    'NumPy and Pandas for data manipulation',
-                    'Matplotlib and Seaborn for data visual',
-                    'Flask and Django for web development',
-                    'SQLAlchemy for database interactions',
+                    'Divide and Conquer',
+                    'Greedy Method',
+                    'Dynamic Programing'
                 ]
             },
             {
                 id: 11,
-                heading: 'Asynchronous Programming',
+                heading: "Practical Application",
                 subHeadings: [
-                    'asyncio and concurrent programming',
-                    'Working with threads and processes',
-                    'Async and await keywords',
+                    'Participate in competitive programming platforms like Codeforces, LeetCode, or HackerRank to practice DSA skills.',
+                    'Apply your knowledge to real-world projects or open-source contributions that require DSA skills.',
+                    'Prepare for technical interviews by practicing common DSA questions and solving coding challenges.',
+                    'Explore how DSA is applied in data science and machine learning for optimizing algorithms and data manipulation.',
                 ]
             },
             {
                 id: 12,
-                heading: 'Web Scraping and APIs',
+                heading: "Benefit From",
                 subHeadings: [
-                    'Requests library for HTTP requests',
-                    'BeautifulSoup for parsing HTML',
-                    'Working with RESTful APIs',
-                ]
-            },
-            {
-                id: 13,
-                heading: 'Databases',
-                subHeadings: [
-                    'QL basics and relational databases',
-                    'SQLite and other database engines in Python',
-                    'ORM(Object - Relational Mapping) with SQLAlchemy',
-                ]
-            },
-            {
-                id: 14,
-                heading: 'Python Packaging and Deployment',
-                subHeadings: [
-                    'Creating Python packages and modules',
-                    'Using virtual environments',
-                    'Deployment with tools like Docker',
-                ]
-            },
-            {
-                id: 15,
-                heading: 'Data Science and Machine Learning',
-                subHeadings: [
-                    'Pandas, NumPy, and Scikit - learn for data analysis and machine learning',
-                    'Jupyter Notebooks for interactive data exploration',
-                    'Building and evaluating machine learning models',
-                ]
-            },
-            {
-                id: 16,
-                heading: 'Web Development (Optional)',
-                subHeadings: [
-                    'Front - end frameworks like React or Vue.js',
-                    'Full - stack development with Python and JavaScript',
-                ]
-            },
-            {
-                id: 17,
-                heading: 'Advanced Topics (Optional)',
-                subHeadings: [
-                    'Cython for performance optimization',
-                    'Python C extensions for integrating with C / C++',
-                    'AI/ ML libraries like TensorFlow or PyTorch',
-                ]
-            },
-            {
-                id: 18,
-                heading: 'Benefit From',
-                subHeadings: [
-                    'Remember that becoming an advanced Python developer is a continuous journey.It is important to keep learning, practicing, and exploring real - world projects to solidify your skills.Good luck on your Python learning journey!'
+                    'Remember that consistency and practice are essential. Start with the basics and gradually progress to more advanced topics. It is also beneficial to combine theoretical knowledge with practical implementation to reinforce your understanding of DSA with Python.'
                 ]
             },
         ],

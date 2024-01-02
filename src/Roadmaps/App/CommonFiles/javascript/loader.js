@@ -1,15 +1,15 @@
 // || Hendel Loder Element
-const loderEl = document.getElementById('loder')
+const loaderEl = document.getElementById('loader')
 window.addEventListener('load', event => {
     event.preventDefault()
 
     // || Adding css Class to hide loader
-    loderEl.classList.add('loder--hidden')
+    loaderEl.classList.add('loader--hidden')
 
-    loderEl.addEventListener('transitionend', event => {
+    loaderEl.addEventListener('transitionend', event => {
         event.preventDefault()
 
         // || For Deleting element from the document 
-        loderEl.remove()
+        loaderEl.remove()
     })
 })
