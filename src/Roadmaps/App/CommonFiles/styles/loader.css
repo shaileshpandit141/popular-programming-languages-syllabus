@@ -26,8 +26,8 @@
     background-color: transparent;
     width: 35px;
     height: 35px;
-    border: 8px solid #2c2c2c;
-    border-top-color: #946286;
+    border: 8px solid #2c2c2c00;
+    border-top-color: #21252b;
     border-radius: 999px;
     animation: loader infinite .5s linear;
 }

@@ -76,7 +76,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: var(--bg-color);
+    background-color: #282e2f;
     position: relative;
 }
 
@@ -244,7 +244,7 @@ body .header {
 /* || Card Styles  */
 .roadmap--card--cont {
     color: var(--color);
-    background-color: var(--bg-btn-color);
+    background-color: #21252b;
     display: flex;
     border-radius: 1rem;
     overflow: hidden;

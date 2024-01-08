@@ -67,7 +67,7 @@ html::-webkit-scrollbar {
 
 /* || Body  */
 body {
-    background-color: #2c2c2c;
+    background-color: #282e2f;
     color: azure;
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     font-size: 1rem;
@@ -302,7 +302,7 @@ body .header {
 
 .heading--cont--btn {
     color: azure;
-    background-color: #27363662;
+    background-color: #21252b;
     border: none;
     display: flex;
     display: flex;
@@ -310,12 +310,13 @@ body .header {
     justify-content: space-between;
     border-radius: 8px;
     overflow: hidden;
-    transition: background-color 0.3s ease-in-out;
+    outline: 2.5px solid #33394200;
+    transition: outline 0.3s ease-in-out;
 }
 
 
 .activeBg {
-    background-color: #2736367c;
+    outline: 2.5px solid #33394279;
 }
 
 
@@ -349,7 +350,7 @@ body .header {
 
 
 .sub--heading--cont {
-    background-color: #2d3131;
+    background-color: #33394279;
     width: 100%;
     /* height: fit-content; */
     height: 0;
