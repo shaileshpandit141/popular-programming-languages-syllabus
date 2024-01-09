@@ -624,7 +624,7 @@ export default [
     {
         id: 5,
         title: 'Advanced JavaScript Syllabus',
-        discription: 'An roadmap to guide your learning journey in JavaScript from beginner to advanced levels. This roadmap is organized by topics and skills. Adjust the pace based on your comfort and understanding at each stage.',
+        discription: 'A roadmap to guide your learning journey in JavaScript from beginner to advanced levels. This roadmap is organized by topics and skills. Adjust the pace based on your comfort and understanding at each stage.',
         url: 'JavaScript-Language-Syllabus',
         syllabusData: [
             {
@@ -985,7 +985,7 @@ export default [
     {
         id: 7,
         title: 'Advanced Pandas Syllabus',
-        discription: 'An roadmap to guide your learning journey in Pandas from beginner to advanced levels. This roadmap is organized by topics and skills. Adjust the pace based on your comfort and understanding at each stage.',
+        discription: 'A roadmap to guide your learning journey in Pandas from beginner to advanced levels. This roadmap is organized by topics and skills. Adjust the pace based on your comfort and understanding at each stage.',
         url: 'Pandas-Syllabus',
         syllabusData: [
             {
@@ -1120,7 +1120,7 @@ export default [
     {
         id: 8,
         title: 'Advanced Matplotlib Syllabus',
-        discription: 'An roadmap to guide your learning journey in Matplotlib from beginner to advanced levels. This roadmap is organized by topics and skills. Adjust the pace based on your comfort and understanding at each stage.',
+        discription: 'A roadmap to guide your learning journey in Matplotlib from beginner to advanced levels. This roadmap is organized by topics and skills. Adjust the pace based on your comfort and understanding at each stage.',
         url: 'Matplotlib-Syllabus',
         syllabusData: [
             {
@@ -1257,7 +1257,7 @@ export default [
     {
         id: 9,
         title: 'Machine Learning With Scikit-Learn Syllabus',
-        discription: 'An roadmap to learn scikit-learn from a beginner to an advanced level.',
+        discription: 'A roadmap to learn scikit-learn from a beginner to an advanced level.',
         url: 'ML-Scikit-Learn-Syllabus',
         syllabusData: [
             {
@@ -1410,9 +1410,9 @@ export default [
         ],
     },
     {
-        id: 7,
+        id: 10,
         title: 'Advanced FastAPI Syllabus',
-        discription: 'An roadmap to guide your learning journey in FastAPI from beginner to advanced levels. This roadmap is organized by topics and skills. Adjust the pace based on your comfort and understanding at each stage.',
+        discription: 'A roadmap to guide your learning journey in FastAPI from beginner to advanced levels. This roadmap is organized by topics and skills. Adjust the pace based on your comfort and understanding at each stage.',
         url: 'FastAPI-Syllabus',
         syllabusData: [
             {
@@ -1547,6 +1547,148 @@ export default [
                 heading: 'Benefit From',
                 subHeadings: [
                     'Remember to build projects along the way to reinforce your learning. This roadmap should provide a structured path for advancing your FastAPI skills.',
+                ]
+            },
+        ]
+    },
+    {
+        id: 11,
+        title: 'Django REST Framework',
+        discription: 'A roadmap to learn Django REST Framework (DRF) from a beginner to an advanced level. Assuming you already have a basic understanding of Django, this roadmap will focus on DRF-specific concepts.',
+        url: 'Django-REST-Framework',
+        syllabusData: [
+            {
+                id: 1,
+                heading: 'Understand RESTful API Concepts',
+                subHeadings: [
+                    'Learn about REST principles, HTTP methods, and status codes.',
+                    'Understand the basic structure of a RESTful API.',
+                ]
+            },
+            {
+                id: 2,
+                heading: 'Introduction to Django REST Framework',
+                subHeadings: [
+                    'Install DRF and integrate it into a Django project.',
+                    'Learn about serializers and how they convert complex data types, such as Django models, into Python data types.',
+                ]
+            },
+            {
+                id: 3,
+                heading: 'Views and ViewSets',
+                subHeadings: [
+                    'Explore DRF views and viewsets to handle HTTP requests.',
+                    'Understand the difference between function-based views and class-based views.',
+                ]
+            },
+            {
+                id: 4,
+                heading: 'Authentication and Permissions',
+                subHeadings: [
+                    'Learn about different authentication mechanisms in DRF.',
+                    'Explore permissions to control access to different parts of your API.',
+                ]
+            },
+            {
+                id: 5,
+                heading: 'Relationships and Hyperlinked APIs',
+                subHeadings: [
+                    'Understand how to represent relationships between models in DRF.',
+                    'Explore Hyperlinked APIs and how to use hyperlinks instead of primary keys.',
+                ]
+            },
+            {
+                id: 6,
+                heading: 'Pagination and Filtering',
+                subHeadings: [
+                    'Learn how to implement pagination for handling large datasets.',
+                    'Explore filtering mechanisms to retrieve specific data.',
+                ]
+            },
+            {
+                id: 7,
+                heading: 'Nested Serializers',
+                subHeadings: [
+                    'Understand how to handle nested relationships using serializers.',
+                    'Learn about depth and source attributes.',
+                ]
+            },
+            {
+                id: 8,
+                heading: 'Authentication Classes and Permissions',
+                subHeadings: [
+                    'Dive deeper into custom authentication classes.',
+                    'Explore and create custom permissions.',
+                ]
+            },
+            {
+                id: 9,
+                heading: 'Versioning and Content Negotiation',
+                subHeadings: [
+                    'Learn about versioning your API to support multiple API versions.',
+                    'Understand content negotiation to handle different data formats.',
+                ]
+            },
+            {
+                id: 10,
+                heading: 'Advanced ViewSets and Routers',
+                subHeadings: [
+                    "Explore more advanced viewsets, such as ModelViewSet and ReadOnlyModelViewSet.",
+                    'Understand how routers simplify URL routing.',
+                ]
+            },
+            {
+                id: 11,
+                heading: 'Testing in DRF',
+                subHeadings: [
+                    'Learn to write unit tests and integration tests for your DRF API.',
+                    'Understand the importance of testing serializers, views, and authentication.',
+                ]
+            },
+            {
+                id: 12,
+                heading: 'Third-party Packages and Extensions',
+                subHeadings: [
+                    'Explore popular DRF extensions and packages.',
+                    'Understand how to integrate tools like Django REST Swagger for API documentation.',
+                ]
+            },
+            {
+                id: 13,
+                heading: 'Performance Optimization',
+                subHeadings: [
+                    'Learn about caching strategies to optimize API performance.',
+                    'Understand best practices for handling large datasets.',
+                ]
+            },
+            {
+                id: 14,
+                heading: 'Build a Complete Project',
+                subHeadings: [
+                    'Apply your knowledge by building a complete project with DRF.',
+                    'Implement features like user authentication, permissions, and complex relationships.',
+                ]
+            },
+            {
+                id: 15,
+                heading: 'API Documentation',
+                subHeadings: [
+                    'Learn how to generate and customize API documentation using tools like Swagger or ReDoc.',
+                ]
+            },
+            {
+                id: 16,
+                heading: 'Continuous Integration and Deployment:',
+                subHeadings: [
+                    'Integrate your DRF project with CI/CD pipelines.',
+                    'Deploy your API to platforms like Heroku, AWS, or DigitalOcean.',
+                ]
+            },
+            {
+                id: 17,
+                heading: 'Benefit From',
+                subHeadings: [
+                    'Remember to build projects along the way to reinforce your learning. This roadmap should provide a structured path for advancing your Django REST Framework skills.',
                 ]
             },
         ]
