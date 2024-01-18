@@ -344,7 +344,7 @@ body .header {
     object-fit: contain;
     object-position: center;
     transition: transform 0.3s ease-in-out;
-    /* transform: rotateZ(180deg); */
+    transform: rotateZ(0deg);
     opacity: .8;
 }
 
