@@ -6,7 +6,6 @@ import FooterLink from "./Components/FooterLink.js";
 const titleTextEl = document.getElementById('titleText')
 const headerEl = document.getElementById('header')
 const footerEl = document.getElementById('footer')
-const headingTextEl = document.getElementById('headingText')
 const discriptionTextEl = document.getElementById('discriptionText')
 const roadmapsContEl = document.getElementById('roadmaps--cont')
 
@@ -16,6 +15,10 @@ let currentPath = window.location.pathname;
 let absoluteUrl = currentPath.toLowerCase().split('/')
 
 function renderToDocument() {
+
+    // || Inserting Footer Title 
+    const footerTitle = `<h3 class="footer--Heading">Checkout other syllabus</h3>`
+    footerEl.insertAdjacentHTML('afterbegin', footerTitle)
 
     Data.forEach(mainData => {
 

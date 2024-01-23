@@ -1692,6 +1692,171 @@ export default [
                 ]
             },
         ]
-    }
+    },
+    {
+        id: 12,
+        title: 'Docker',
+        discription: ' roadmap to learn Docker from a beginner to an advanced level, broken down by topics. Please note that this is a general guide, and you may adjust the pace and order based on your learning preferences and goals.',
+        url: 'Docker-Syllabus',
+        syllabusData: [
+            {
+                id: 1,
+                heading: 'Understanding the Basics',
+                subHeadings: [
+                    'Learn what Docker is and its key concepts.',
+                    'Understand the difference between virtualization and containerization.',
+                    'Install Docker on your machine(Windows, macOS, or Linux).',
+                ]
+            },
+            {
+                id: 2,
+                heading: 'Working with Containers',
+                subHeadings: [
+                    'Create your first Docker container.',
+                    'Explore Docker Hub and pull pre - built images.',
+                    'Run containers with different commands(docker run, docker ps, etc.).',
+                    'Remove containers and images(docker rm, docker rmi).',
+                ]
+            },
+            {
+                id: 3,
+                heading: 'Docker Images',
+                subHeadings: [
+                    'Build Docker images using Dockerfiles.',
+                    'Understand layers in Docker images.',
+                    'Tag and push images to Docker Hub.',
+                ]
+            },
+            {
+                id: 4,
+                heading: 'Networking in Docker',
+                subHeadings: [
+                    'Learn the basics of networking in Docker.',
+                    'Connect containers together using networks.',
+                ]
+            },
+            {
+                id: 5,
+                heading: 'Data Management',
+                subHeadings: [
+                    'Understand data persistence in Docker.',
+                    'Use volumes to persist data between container restarts.',
+                ]
+            },
+            {
+                id: 6,
+                heading: 'Docker Compose',
+                subHeadings: [
+                    'Learn how to define multi - container applications using Docker Compose.',
+                    'Run and manage multi - container applications.',
+                ]
+            },
+            {
+                id: 7,
+                heading: 'Orchestration with Docker Swarm',
+                subHeadings: [
+                    'Understand Docker Swarm and its basic concepts.',
+                    'Create and manage a Swarm cluster.',
+                    'Deploy and scale services in a Swarm cluster.',
+                ]
+            },
+            {
+                id: 8,
+                heading: 'Container Orchestration with Kubernetes',
+                subHeadings: [
+                    'Learn the basics of Kubernetes.',
+                    'Understand Kubernetes objects(Pods, Deployments, Services, etc.).',
+                    'Set up a single - node Kubernetes cluster using tools like Minikube.',
+                ]
+            },
+            {
+                id: 9,
+                heading: 'Docker Security',
+                subHeadings: [
+                    'Understand container security best practices.',
+                    'Learn about Docker Content Trust and image signing.',
+                    'Implement security measures in Docker containers.',
+                ]
+            },
+            {
+                id: 10,
+                heading: 'CI/CD with Docker (Advanced Leve)',
+                subHeadings: [
+                    'Integrate Docker into continuous integration and continuous deployment(CI / CD) pipelines.',
+                    'Use Docker in combination with tools like Jenkins or GitLab CI.',
+                ]
+            },
+            {
+                id: 11,
+                heading: 'Monitoring and Logging',
+                subHeadings: [
+                    'Explore tools for monitoring Docker containers(Prometheus, Grafana).',
+                    'Set up centralized logging for Docker containers(ELK Stack, Fluentd).',
+                ]
+            },
+            {
+                id: 12,
+                heading: 'Advanced Networking',
+                subHeadings: [
+                    'Explore advanced networking concepts in Docker.',
+                    'Implement service discovery and load balancing.',
+                ]
+            },
+            {
+                id: 13,
+                heading: 'Docker API and SDKs',
+                subHeadings: [
+                    'Learn how to interact with the Docker API.',
+                    'Explore Docker SDKs for different programming languages.',
+                ]
+            },
+            {
+                id: 14,
+                heading: 'Dockerizing Applications',
+                subHeadings: [
+                    'Containerize different types of applications (web apps, databases, microservices).',
+                    'Optimize Dockerfiles for production use.',
+                ]
+            },
+            {
+                id: 15,
+                heading: 'Container Orchestration with Kubernetes',
+                subHeadings: [
+                    'Explore advanced Kubernetes features(Custom Resource Definitions, Operators).',
+                    'Set up a multi - node Kubernetes cluster.',
+                ]
+            },
+            {
+                id: 16,
+                heading: 'Docker Enterprise Edition (EE)',
+                subHeadings: [
+                    'Understand Docker EE features for enterprise-level container orchestration.',
+                    'Explore Docker EE security features.',
+                ]
+            },
+            {
+                id: 17,
+                heading: 'Exploring Containerd and Other Runtimes',
+                subHeadings: [
+                    'Learn about alternative container runtimes like containerd and rkt.',
+                ]
+            },
+            {
+                id: 18,
+                heading: 'Docker in Production',
+                subHeadings: [
+                    'Implement best practices for running Docker in production.',
+                    'Set up high availability and fault tolerance for containerized applications.',
+                ]
+            },
+            {
+                id: 17,
+                heading: 'Benefit From',
+                subHeadings: [
+                    'This roadmap is a comprehensive guide, and you can tailor it to your specific interests and career goals. Remember to practice by working on real-world projects to solidify your knowledge.',
+                ]
+            },
+        ]
+    },
 
 ]
