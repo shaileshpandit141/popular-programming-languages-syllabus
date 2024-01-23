@@ -34,7 +34,8 @@ function renderToDocument() {
                 // || Add Some Information to the Document 
                 titleTextEl.innerText = mainData.title
                 headerEl.innerHTML = Header(mainData)
-                // headingTextEl.innerText = mainData.title
+                
+                // Adding Syllabus name and Discription
                 discriptionTextEl.innerText = mainData.discription
 
                 // || Add DropdownCard Into The Document 

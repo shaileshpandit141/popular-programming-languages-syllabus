@@ -1,7 +1,5 @@
 export default function SyllabusCard(data) {
 
-    let num1 = data.id > 9? `${data.id}`: `0${data.id}`
-
     return (
         `
         <div class="roadmap--card--cont">
