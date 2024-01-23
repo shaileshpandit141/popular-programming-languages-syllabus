@@ -1701,7 +1701,7 @@ export default [
         syllabusData: [
             {
                 id: 1,
-                heading: 'Understanding the Basics',
+                heading: 'Understanding the Basics (Beginner Level)',
                 subHeadings: [
                     'Learn what Docker is and its key concepts.',
                     'Understand the difference between virtualization and containerization.',
@@ -1745,7 +1745,7 @@ export default [
             },
             {
                 id: 6,
-                heading: 'Docker Compose',
+                heading: 'Docker Compose (Intermediate Level)',
                 subHeadings: [
                     'Learn how to define multi - container applications using Docker Compose.',
                     'Run and manage multi - container applications.',
@@ -1780,7 +1780,7 @@ export default [
             },
             {
                 id: 10,
-                heading: 'CI/CD with Docker (Advanced Leve)',
+                heading: 'CI/CD with Docker (Advanced Level)',
                 subHeadings: [
                     'Integrate Docker into continuous integration and continuous deployment(CI / CD) pipelines.',
                     'Use Docker in combination with tools like Jenkins or GitLab CI.',
