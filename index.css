@@ -48,8 +48,8 @@
 
     /* || Colors */
     --color: #fff;
-    --bg-color: #2c2c2c;
-    --bg-btn-color: #2a3030;
+    --bg-color: #21252b;
+    --bg-btn-color: #202020;
     --border-color: #ffffff1f;
 
 }
@@ -58,7 +58,7 @@
 input,
 button {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
-    color: #fff;
+    color: var(--color);
 }
 
 html::-webkit-scrollbar {
@@ -76,13 +76,13 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #282e2f;
+    background-color: var(--bg-color);
     position: relative;
 }
 
 /* || Header styles */
 body .header {
-    background-color: #21252b;
+    background-color: var(--bg-btn-color);
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -99,7 +99,7 @@ body .header {
 /* || Header Section Styles */
 .header .nav {
     width: 75%;
-    height: 6rem;
+    height: 5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -156,8 +156,8 @@ body .header {
     letter-spacing: var(--LABEL--LETTER--SPACING);
     padding: 8px 16px;
     border-radius: 8px;
-    color: #fff;
-    background-color: #2a3030;
+    color: var(--color);
+    background-color: var(--bg-color);
     transition: outline 0.3s ease-in-out;
 }
 
@@ -215,17 +215,13 @@ body .header {
 /* || Card Styles  */
 .roadmap--card--cont {
     color: var(--color);
-    background-color: #21252b;
+    background-color: var(--bg-btn-color);
     display: flex;
     border-radius: 1rem;
     overflow: hidden;
     outline: 3px solid transparent;
-    transition: outline 0.3s ease-in-out;
 }
 
-.roadmap--card--cont:hover {
-    outline: 3px solid #ffffff08;
-}
 
 .roadmap--card--cont .card--link {
     color: inherit;

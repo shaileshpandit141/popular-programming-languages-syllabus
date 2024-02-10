@@ -3,28 +3,31 @@ const headingEls = document.querySelectorAll('.heading--cont--btn')
 function hendelClick() {
     for (let index = 0; index < headingEls.length; index++) {
 
-        let iconEl = document.getElementById(`${'icon--' + (index+1)}`)
-        let subHeadingContainerEl = document.getElementById(`${'subheading--cont' + (index+1)}`)
-        
-        let attName = `${'data-state' + (index+1)}`
-        let clickStateEl = document.getElementById(attName)
-        
         headingEls[index].addEventListener('click', (event) => {
             event.preventDefault()
+
+            let iconEl = document.getElementById(`${'icon--' + (index + 1)}`)
+            let subHeadingContainerEl = document.getElementById(`${'subheading--cont' + (index + 1)}`)
+
+            let attName = `${'data-state' + (index + 1)}`
+            let clickStateEl = document.getElementById(attName)
+
+            const moduleEl = document.getElementById(`module${index + 1}`)
 
             let clickState = clickStateEl.getAttribute(attName)
 
             if (clickState === 'true') {
                 clickStateEl.setAttribute(attName, 'false')
                 iconEl.style.transform = 'rotateZ(90deg)'
-                headingEls[index].classList.add('activeBg')
                 subHeadingContainerEl.style.height = 'fit-content'
-                subHeadingContainerEl.style.maxHeight = '250px'
+                subHeadingContainerEl.style.paddingBottom = '16px'
+                moduleEl.style.backgroundColor = 'var(--bg-btn-color)'
             } else {
                 clickStateEl.setAttribute(attName, 'true')
                 iconEl.style.transform = 'rotateZ(0deg)'
-                headingEls[index].classList.remove('activeBg')
                 subHeadingContainerEl.style.height = '0px'
+                subHeadingContainerEl.style.paddingBottom = '0'
+                moduleEl.style.backgroundColor = 'var(--bg-color)'
             }
         })
 
@@ -32,3 +35,5 @@ function hendelClick() {
 }
 
 hendelClick()
+
+

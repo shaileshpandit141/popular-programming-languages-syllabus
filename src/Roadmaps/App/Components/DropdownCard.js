@@ -7,9 +7,9 @@ export default function DropdownCard(data) {
 
     return (
         `
-        <div class="roadmaps">
+        <div class="roadmaps" id="${'module' + data.id}">
             <button ${'data-state' + data.id}="true" id="${'data-state' + data.id}" class="heading--cont--btn">
-                <span class="module--tag">Module:${modualNumWithZero}</span>
+                <span class="module--tag">M${modualNumWithZero}.</span>
                 <h3> ${data.heading}</h3>
                 <figure class="icon--cont">
                     <img id="${'icon--' + data.id}" src="../App/CommonFiles/icons/angle-small-right.svg" alt="" width="24px" height="24px">

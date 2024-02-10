@@ -48,9 +48,8 @@
 
     /* || Colors */
     --color: #fff;
-    --bg-color: #2c2c2c;
-    --bg-btn-color: #2a3030;
-    --border-color: #ffffff1f;
+    --bg-color: #21252b;
+    --bg-btn-color: #202020;
 
 }
 
@@ -58,7 +57,7 @@
 input,
 button {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
-    color: #fff;
+    color: var(--color);
 }
 
 html::-webkit-scrollbar {
@@ -67,8 +66,8 @@ html::-webkit-scrollbar {
 
 /* || Body  */
 body {
-    background-color: #282e2f;
-    color: azure;
+    background-color: var(--bg-color);
+    color: var(--color);
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     font-size: 1rem;
     width: 100%;
@@ -77,14 +76,14 @@ body {
     flex-direction: column;
     align-items: center;
     position: relative;
-    padding-top: 6rem;
+    padding-top: 5rem;
 }
 
 
 /* || Header Section Styles */
 /* || Header styles */
 body .header {
-    background-color: #21252b;
+    background-color: var(--bg-btn-color);
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -106,7 +105,7 @@ body .header {
     /* width: 75%; */
     width: 100%;
     max-width: 750px;
-    height: 6rem;
+    height: 5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -163,7 +162,7 @@ body .header {
     letter-spacing: var(--LABEL--LETTER--SPACING);
     padding: 8px 16px;
     border-radius: 8px;
-    color: #fff;
+    color: var(--color);
     background-color: var(--bg-color);
     transition: outline 0.3s ease-in-out;
 }
@@ -190,14 +189,13 @@ body .header {
     justify-content: center;
     border-radius: 999rem;
     overflow: hidden;
-    border: 2.5px solid #282e2f;
+    border: 2.5px solid var(--bg-color);
 }
 
 
 .right--cont .overflow--link a {
     text-decoration: none;
-    /* background-color: #2a3030; */
-    color: #fff;
+    color: var(--color);
     border: none;
     font-size: var(--LABLE--SIZE);
     letter-spacing: var(--LABEL--LETTER--SPACING);
@@ -208,7 +206,7 @@ body .header {
 
 
 .right--cont .overflow--link a:hover {
-    background-color: #2a3030;
+    background-color: var(--bg-color);
 }
 
 
@@ -248,12 +246,10 @@ body .header {
     display: flex;
     gap: 10px;
     align-items: center;
-    background-color: transparent;
     margin-bottom: .5rem;
 }
 
 .heading--cont .figure--cont {
-    background-color: transparent;
     aspect-ratio: 1/1;
     width: 40px;
     height: 40px;
@@ -276,7 +272,6 @@ body .header {
     position: sticky;
     top: 0;
     width: 100%;
-    background-color: transparent;
     z-index: 100;
 }
 
@@ -302,7 +297,7 @@ body .header {
     flex-direction: column;
     align-items: flex-start;
     height: fit-content;
-    row-gap: 5px;
+    row-gap: 4px;
 }
 
 
@@ -312,32 +307,27 @@ body .header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    row-gap: 1px;
+    border-radius: 12px;
+    overflow: hidden;
 }
 
 
 .heading--cont--btn {
-    color: azure;
-    background-color: #21252b;
+    color: var(--color);
+    background-color: transparent;
     border: none;
     display: flex;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-radius: 8px;
+    border-radius: 12px;
     overflow: hidden;
-    outline: 2.5px solid #33394200;
     transition: outline 0.3s ease-in-out;
 }
 
 
-.activeBg {
-    outline: 2.5px solid #33394279;
-}
-
-
 .heading--cont--btn h3 {
-    color: azure;
+    color: var(--color);
     opacity: .8;
     flex: 1;
     padding: 8px;
@@ -366,7 +356,7 @@ body .header {
 
 
 .sub--heading--cont {
-    background-color: #21252b;
+    background-color: transparent;
     width: 100%;
     /* height: fit-content; */
     height: 0;
@@ -388,7 +378,7 @@ body .header {
 
 
 .ol li {
-    color: azure;
+    color: var(--color);
     opacity: .6;
     padding: 8px 16px;
     font-size: var(--BODY--M--SIZE);
@@ -401,7 +391,7 @@ body .header {
 
 
 .module--tag {
-    color: beige;
+    color: var(--color);
     opacity: .6;
     padding: 8px 0px 8px 8px;
     font-size: var(--BODY--M--SIZE);
@@ -413,7 +403,7 @@ body .header {
 /* || Footer section styles  */
 .footer--cont {
     width: 100%;
-    background-color: #21252b;
+    background-color: var(--bg-btn-color);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -436,7 +426,6 @@ body .header {
 
 .footer {
     width: 92%;
-    ;
     max-width: 750px;
     min-width: 0;
     padding-block: 2rem;
@@ -457,7 +446,7 @@ body .header {
 .footer a {
     padding: 5px;
     text-decoration: none;
-    color: azure;
+    color: var(--color);
     font-size: var(--BODY--M--SIZE);
     letter-spacing: var(--BODY--M--LETTER--SPACING);
     line-height: var(--BODY--M--LINE-HEIGHT);
