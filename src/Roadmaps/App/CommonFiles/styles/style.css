@@ -48,7 +48,7 @@
 
     /* || Colors */
     --color: #fff;
-    --bg-color: #21252b;
+    --bg-color: #2c2c2c;
     --bg-btn-color: #202020;
 
 }
@@ -380,7 +380,7 @@ body .header {
 .ol li {
     color: var(--color);
     opacity: .6;
-    padding: 8px 16px;
+    padding: 8px;
     font-size: var(--BODY--M--SIZE);
     letter-spacing: var(--BODY--M--LETTER--SPACING);
     line-height: var(--BODY--M--LINE-HEIGHT);
