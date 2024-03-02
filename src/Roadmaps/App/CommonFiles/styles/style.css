@@ -17,39 +17,38 @@
 /* || CSS Font Size Variables */
 :root {
 
-    /* | For Display Text  */
-    --DISPLAY--SIZE: 4rem;
+    /* For Display Text  */
+    --display: 4rem;
     /* 64px */
-    --DISPLAY--LINE--HEIGHT: 44px;
+    --display-height: 44px;
 
-    /* | For Heading Text  */
-    --HEADING--SIZE: 2.813rem;
+    /* For Heading Text  */
+    --heading: 2.813rem;
     /* 45px */
-    --HEADING--LINE--HEIGHT: 36px;
+    --heading-height: 36px;
 
-    /* | For Title Text  */
-    --TITLE--SIZE: 1.25rem;
+    /* For Title Text  */
+    --title: 1.25rem;
     /* 20px */
-    --TITLE--LINE--HEIGHT: 24px;
-    --TITLE--LETTER--SPACING: 0.15px;
+    --title-height: 24px;
+    --title-spacing: 0.15px;
 
-    /* | For Label Text  */
-    --LABLE--SIZE: 1.125rem;
+    /* For Label Text  */
+    --label: 1.125rem;
     /* 18px */
-    --LABEL--LINE--HEIGHT: 16px;
-    --LABEL--LETTER--SPACING: 0.5px;
+    --label-height: 16px;
+    --label-spacing: 0.5px;
 
-    /* | For Body Text  */
-    --BODY--M--SIZE: 0.875rem;
+    /* For body Text  */
+    --body-m: 0.875rem;
     /* 14px */
-    --BODY--M--LINE-HEIGHT: 20px;
-    --BODY--M--LETTER--SPACING: 0.25px;
-
+    --body-m-height: 20px;
+    --body-m-spacing: 0.25px;
 
     /* || Colors */
     --color: #fff;
-    --bg-color: #2c2c2c;
-    --bg-btn-color: #202020;
+    --bg-color: #282c34;
+    --bg-btn-color: #191c20;
 
 }
 
@@ -76,12 +75,11 @@ body {
     flex-direction: column;
     align-items: center;
     position: relative;
-    padding-top: 5rem;
+    padding-top: 4.5rem;
 }
 
 
 /* || Header Section Styles */
-/* || Header styles */
 body .header {
     background-color: var(--bg-btn-color);
     width: 100%;
@@ -95,6 +93,7 @@ body .header {
     left: 0;
     bottom: auto;
     z-index: 200;
+    box-shadow: 0 1px 5px #0000004d;
 }
 
 .header * {
@@ -105,7 +104,7 @@ body .header {
     /* width: 75%; */
     width: 100%;
     max-width: 750px;
-    height: 5rem;
+    height: 4.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -142,6 +141,18 @@ body .header {
 }
 
 
+.main--heading {
+    text-align: start;
+    padding-block: 2rem;
+    font-size: var(--title);
+    letter-spacing: var(--title-spacing);
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+
 /* || Right Container  */
 .middel--cont {
     min-width: 0;
@@ -158,8 +169,8 @@ body .header {
     flex-shrink: 1;
     border: none;
     outline: 3px solid transparent;
-    font-size: var(--LABLE--SIZE);
-    letter-spacing: var(--LABEL--LETTER--SPACING);
+    font-size: var(--label);
+    letter-spacing: var(--label-spacing);
     padding: 8px 16px;
     border-radius: 8px;
     color: var(--color);
@@ -197,10 +208,11 @@ body .header {
     text-decoration: none;
     color: var(--color);
     border: none;
-    font-size: var(--LABLE--SIZE);
-    letter-spacing: var(--LABEL--LETTER--SPACING);
+    font-size: var(--label);
+    letter-spacing: var(--label-spacing);
     padding: 8px 16px;
     opacity: .8;
+    font-weight: 500;
     transition: background-color 0.3s ease-in-out;
 }
 
@@ -263,19 +275,6 @@ body .header {
 }
 
 
-.main--heading {
-    text-align: start;
-    padding-block: 2rem;
-    font-size: var(--TITLE--SIZE);
-    line-height: var(--TITLE--LINE--HEIGHT);
-    letter-spacing: var(--TITLE--LETTER--SPACING);
-    position: sticky;
-    top: 0;
-    width: 100%;
-    z-index: 100;
-}
-
-
 .inner--section .discription--text {
     font-size: var(--BODY--M--SIZE);
     letter-spacing: var(--BODY--M--LETTER--SPACING);
@@ -285,7 +284,10 @@ body .header {
     min-width: 0;
     text-align: justify;
     margin-block: 2rem;
-    opacity: .6;
+}
+
+.inner--section .discription--text::first-letter {
+    text-transform: capitalize;
 }
 
 
@@ -303,32 +305,38 @@ body .header {
 
 .roadmaps {
     width: 100%;
+    max-width: 500px;
     height: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border-radius: 12px;
+    border-radius: 16px;
     overflow: hidden;
 }
-
 
 .heading--cont--btn {
     color: var(--color);
-    background-color: transparent;
+    background-color: #21252b;
     border: none;
-    display: flex;
+    flex: 1;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    border-radius: 12px;
-    overflow: hidden;
-    transition: outline 0.3s ease-in-out;
+    column-gap: 4px;
+    padding: 2px 6px;
+    font-size: var(--label);
+    letter-spacing: var(--label-spacing);
+    line-height: var(--label-height);
+    text-transform: capitalize;
 }
 
 
-.heading--cont--btn h3 {
+.heading--cont--btn * {
+    user-select: none;
+}
+
+
+.heading--cont--btn h2 {
     color: var(--color);
-    opacity: .8;
     flex: 1;
     padding: 8px;
     font-size: var(--LABLE--SIZE);
@@ -340,7 +348,7 @@ body .header {
 
 
 .heading--cont--btn .icon--cont {
-    padding: 8px 8px 8px 0;
+    padding: 8px 0;
 }
 
 
@@ -351,14 +359,12 @@ body .header {
     object-position: center;
     transition: transform 0.3s ease-in-out;
     transform: rotateZ(0deg);
-    opacity: .8;
 }
 
 
 .sub--heading--cont {
-    background-color: transparent;
     width: 100%;
-    /* height: fit-content; */
+    height: fit-content;
     height: 0;
     overflow-y: scroll;
     scroll-behavior: smooth;
@@ -373,20 +379,29 @@ body .header {
 
 
 .ol {
-    margin-left: 2.5rem;
+    padding: 0;
+    margin: 0;
 }
 
 
-.ol li {
+.ol .submodule--text {
     color: var(--color);
-    opacity: .6;
-    padding: 8px;
-    font-size: var(--BODY--M--SIZE);
-    letter-spacing: var(--BODY--M--LETTER--SPACING);
-    line-height: var(--BODY--M--LINE-HEIGHT);
-    font-weight: 400;
-    width: 100%;
-    max-width: inherit;
+    padding: 8px 16px;
+    margin-left: 16px;
+    font-size: var(--body-m);
+    letter-spacing: var(--body-m-spacing);
+    line-height: var(--body-m-height);
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+    opacity: 0.8;
+    cursor: default;
+}
+
+
+.submodule--text li::first-letter {
+    text-transform: capitalize;
 }
 
 

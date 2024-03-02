@@ -3,7 +3,8 @@ const headingEls = document.querySelectorAll('.heading--cont--btn')
 function hendelClick() {
     for (let index = 0; index < headingEls.length; index++) {
 
-        headingEls[index].addEventListener('click', (event) => {
+        const headingEl = headingEls[index]
+        headingEl.addEventListener('click', (event) => {
             event.preventDefault()
 
             let iconEl = document.getElementById(`${'icon--' + (index + 1)}`)
@@ -21,12 +22,14 @@ function hendelClick() {
                 iconEl.style.transform = 'rotateZ(90deg)'
                 subHeadingContainerEl.style.height = 'fit-content'
                 subHeadingContainerEl.style.paddingBottom = '16px'
+                headingEl.style.backgroundColor = 'var(--bg-btn-color)'
                 moduleEl.style.backgroundColor = 'var(--bg-btn-color)'
             } else {
                 clickStateEl.setAttribute(attName, 'true')
                 iconEl.style.transform = 'rotateZ(0deg)'
                 subHeadingContainerEl.style.height = '0px'
                 subHeadingContainerEl.style.paddingBottom = '0'
+                headingEl.style.backgroundColor = '#21252b'
                 moduleEl.style.backgroundColor = 'var(--bg-color)'
             }
         })

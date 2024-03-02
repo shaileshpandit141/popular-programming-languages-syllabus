@@ -48,8 +48,8 @@
 
     /* || Colors */
     --color: #fff;
-    --bg-color: #2c2c2c;
-    --bg-btn-color: #202020;
+    --bg-color: #282c34;
+    --bg-btn-color: #191c20;
     --border-color: #ffffff1f;
 
 }
@@ -94,12 +94,13 @@ body .header {
     left: 0;
     bottom: auto;
     z-index: 100;
+    box-shadow: 0 1px 5px #0000004d;
 }
 
 /* || Header Section Styles */
 .header .nav {
     width: 75%;
-    height: 5rem;
+    height: 4.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -193,7 +194,7 @@ body .header {
 #root {
     width: 75%;
     transition: width .3s ease-in-out, media .3s ease-in-out;
-    padding-top: 6rem;
+    padding-top: 5rem;
 }
 
 @media (width < 768px) {
@@ -217,7 +218,7 @@ body .header {
     color: var(--color);
     background-color: var(--bg-btn-color);
     display: flex;
-    border-radius: 1rem;
+    border-radius: 1.5rem;
     overflow: hidden;
     outline: 3px solid transparent;
 }
